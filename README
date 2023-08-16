@@ -1,1 +1,5 @@
-For displaying usage statistics
+To set up after the image is freshly deployed:
+
+docker exec -it apache_server /bin/bash
+chmod 777 stuff.sh
+./stuff.sh
